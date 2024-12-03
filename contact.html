@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HouseGreen Residence</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- ==== ANIMATE ON SCROLL CSS CDN  ==== -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  <!-- ==== ANIMATE ON SCROLL CSS CDN  ==== -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  <!-- Customized Bootstrap Stylesheet -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+  <!-- header -->
+  <header class="header">
+    <!-- navbar -->
+    <nav class="nav">
+      <div class="logo">
+        <a href="./index.html" style="text-decoration: none;">
+          <h2>HouseGreen <br> <span id="black-title">Residence.</span></h2>
+        </a>
+      </div>
+
+      <div class="nav_menu" id="nav_menu">
+        <button class="close_btn" id="close_btn">
+          <i class="fa fa-arrow-right"></i>
+        </button>
+
+        <ul class="nav_menu_list">
+          <li class="nav_menu_item">
+            <a href="./index.html" class="nav_menu_link">HOME</a>
+          </li>
+          <li class="nav_menu_item">
+            <a href="./house_type.html" class="nav_menu_link">HOUSE TYPE</a>
+          </li>
+          <li class="nav_menu_item">
+            <a href="./about.html" class="nav_menu_link">ABOUT US</a>
+          </li>
+          <li class="nav_menu_item">
+            <a href="./contact.html" class="nav_menu_link menu_active">CONTACT</a>
+          </li>
+          <li class="nav_menu_item">
+            <a href="./blog.html" class="nav_menu_link">BLOG</a>
+          </li>
+        </ul>
+      </div>
+
+      <button class="toggle_btn" id="toggle_btn">
+        <i class="fa fa-bars"></i>
+      </button>
+
+    </nav>
+  </header>
+  <!-- header -->
+
+  <!-- section title -->
+  <section class="wrapper-content tentang" id="home">
+    <div class="container-fluid">
+      <div class="row" id="content-title">
+        <div class="col-md-12 text-center">
+          <h2>Contact</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- section title -->
+
+  <!-- content -->
+  <div class="container kontak">
+    <div class="row justify-content-center">
+      <div class="col-md-12">
+        <div class="wrapper">
+
+          <div class="row">
+            <div class="col-md-3">
+              <div class="dbox w-100 text-center">
+                <div class="icon d-flex align-items-center justify-content-center">
+                  <span class="fa fa-map-marker"></span>
+                </div>
+                <div class="text">
+                  <p>
+                    <span>Address :</span> Blok Oteng, Jl Pramuka No 143 (Kelurahan Sukamelang), Kab. Subang
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="dbox w-100 text-center">
+                <div class="icon d-flex align-items-center justify-content-center">
+                  <span class="fa fa-phone"></span>
+                </div>
+                <div class="text">
+                  <p>
+                    <span>Phone :</span>
+                    <a
+                      href="https://wa.me/6282319227488?text=Halo,%20saya%20tertarik%20dengan%20project%20Anda">+6282319227488</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="dbox w-100 text-center">
+                <div class="icon d-flex align-items-center justify-content-center">
+                  <span class="fa fa-paper-plane"></span>
+                </div>
+                <div class="text">
+                  <p>
+                    <span>Email:</span>
+                    <a href="mailto:info@myskill.co.id">HouseGreen.co.id</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="dbox w-100 text-center">
+                <div class="icon d-flex align-items-center justify-content-center">
+                  <span class="fa fa-github"></span>
+                </div>
+                <div class="text">
+                  <p>
+                    <span>Website:</span>
+                    <a href="#">Https://github.com/Alfathony19</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row no-gutters mb-5 mt-5">
+            <div class="col-md-7">
+              <div class="contact-wrap w-100 p-md-5 p-4">
+                <h3>Contact Us</h3>
+                <div class="mb-4"> Please contact us if you are interested in HouseGreen Residence. </div>
+                <form id="contactForm" name="contactForm" class="contactForm" novalidate="novalidate">
+                  <div class="row">
+                    <div class="col-md-6 mb-2 mt-2">
+                      <div class="form-group">
+                        <label class="label" for="name">Name</label>
+                        <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-2 mt-2">
+                      <div class="form-group">
+                        <label class="label" for="email">Email</label>
+                        <input type="email" class="form-control" name="email" id="name" placeholder="Email">
+                      </div>
+                    </div>
+                    <div class="col-md-12 mb-2 mt-2">
+                      <div class="form-group">
+                        <label class="label" for="subject">Subject</label>
+                        <input type="text" class="form-control" name="subject" id="name" placeholder="Subject">
+                      </div>
+                    </div>
+                    <div class="col-md-12 mb-2 mt-2">
+                      <div class="form-group">
+                        <label class="label"
+                          for="https://wa.me/6282319227488?text=Halo,%20saya%20tertarik%20dengan%20project%20Anda">Message</label>
+                        <textarea name="message" class="form-control" cols="30" rows="4" placeholder="Message..."
+                          spellcheck="false"></textarea>
+                      </div>
+                    </div>
+                    <div class="col-md-12 mb-2 mt-2">
+                      <div class="form-group">
+                        <button class="btn_home view_more_btn">
+                          Send Message <i class="fa fa-envelope"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="col-md-5 d-flex align-items-strecth">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.8496599018204!2d107.77713427411845!3d-6.5406616639389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e693b90ea1bcc01%3A0x87920c17d9ddf0b7!2sJl.%20Raya%20Pramuka%20No.143%2C%20Sukamelang%2C%20Kec.%20Subang%2C%20Kabupaten%20Subang%2C%20Jawa%20Barat%2041211!5e0!3m2!1sid!2sid!4v1733136076491!5m2!1sid!2sid"
+                width="600" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- content -->
+
+  <!-- Footer-->
+  <br><br><br>
+  <footer data-aos="zoom-in-down" data-aos-duration="1000">
+    <div class="socials">
+      <a href="https://www.instagram.com/alfathony.19?igsh=MWw0dzNjb2YzbzNwaQ=="><i class="fa fa-instagram"></i></a>
+      <a href="www.linkedin.com/in/aldo-abdillah-fathony-144b06303"><i class="fa fa-linkedin"></i></a>
+      <a href="https://web.facebook.com/aldo.a.fathony"><i class="fa fa-facebook"></i></a>
+    </div>
+
+    <div class="links">
+      <a href="./index.html">Home</a>
+      <a href="./house_type.html">House Type</a>
+      <a href="./about.html">About Us</a>
+      <a href="./contact.html">Contact</a>
+      <a href="./blog.html">Blog</a>
+    </div>
+
+    <div class="credit">
+      <p>Created by <a href="">Aldo Abdillah Fathony</a>. | &copy; 2024</p>
+    </div>
+  </footer>
+  <!-- Footer -->
+
+  <!-- ==== ANIMATE ON SCROLL JS CDN -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- ==== GSAP CDN ==== -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+
+  <!-- ==== SCRIPT.JS ==== -->
+  <script src="./js/script.js" defer></script>
+</body>
+
+</html>
