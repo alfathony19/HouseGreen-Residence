@@ -1,17 +1,17 @@
 /* import monseratt font family */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Montserrat", sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 
 *,
 *::before,
-*::after{
-    box-sizing: border-box;
+*::after {
+  box-sizing: border-box;
 }
 
 /* CSS VARIABLES */
@@ -27,7 +27,7 @@
   --c-titan-white: #f1eeff;
   --c-cold-purple: #a69fd6;
   --c-indigo: #6558d3;
-  --c-governor: #4133B7;
+  --c-governor: #4133b7;
 }
 
 body {
@@ -43,7 +43,7 @@ ul li {
 a {
   list-style-type: none;
 }
-button{
+button {
   background-color: transparent;
   border: none;
   outline: none;
@@ -56,7 +56,7 @@ button{
 }
 
 /* header */
-.header{
+.header {
   height: var(--fixed-header-height);
   padding: 25px 4rem;
   position: fixed;
@@ -67,8 +67,8 @@ button{
 }
 
 .shadow-header {
-  box-shadow: 0 5px 20px 0 rgba(0,0,0,.1);
-  transition: background .3s, border .3s, border-radius .3s, box-shadow .3s;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
   border-bottom: 1px solid #eee;
 }
 
@@ -99,7 +99,7 @@ button{
   align-items: center;
 }
 
-.nav_menu_list .nav_menu_item{
+.nav_menu_list .nav_menu_item {
   margin: 0 2rem;
 }
 
@@ -121,7 +121,7 @@ button{
 }
 
 .toggle_btn {
-  font-size:20px; 
+  font-size: 20px;
   font-weight: 600;
   color: var(--lg-heading);
   z-index: 4;
@@ -248,13 +248,13 @@ button{
   object-fit: contain;
 }
 
-#content-title{
+#content-title {
   height: 170px;
-  background-image: url('../img/content-title.png');
-  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+  background-image: url("../img/content-title.png");
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
   justify-content: center;
   align-items: center;
-  color: var(--c-white)
+  color: var(--c-white);
 }
 
 .author-info img {
@@ -310,7 +310,6 @@ button{
   font-size: 0.8rem;
 }
 
-
 footer {
   background-color: rgba(255, 255, 255, 0);
   box-shadow: rgba(0, 0, 0, 0.1);
@@ -356,7 +355,7 @@ footer .credit a:hover {
 }
 /* KONTAK STYLE */
 .contact-wrap {
-  background: #e8edf0; 
+  background: #e8edf0;
 }
 
 .dbox {
@@ -371,7 +370,7 @@ footer .credit a:hover {
 
 .dbox p span {
   font-weight: 500;
-  color:black;
+  color: black;
 }
 
 .dbox .icon {
@@ -380,14 +379,14 @@ footer .credit a:hover {
   border-radius: 50%;
   background: var(--primary-color);
   margin: 0 auto;
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
 }
 .dbox .icon span {
   font-size: 20px;
-  color: #fff; 
+  color: #fff;
 }
 .dbox .text {
-    width: 100%; 
+  width: 100%;
 }
 @media (min-width: 768px) {
   .dbox {
@@ -403,7 +402,7 @@ footer .credit a:hover {
 }
 .tipe_rumah_item {
   box-shadow: 0 0.5rem 1.5rem rgba(22, 28, 45, 0.1);
-  border:1px solid #eee !important;
+  border: 1px solid #eee !important;
 }
 .tipe_rumah_item i {
   font-size: 25px;
@@ -411,7 +410,7 @@ footer .credit a:hover {
 }
 
 /* DETAIL RUMAH STYLE */
-.detail_tipe_rumah{
+.detail_tipe_rumah {
   padding-left: 0 !important;
 }
 
@@ -436,7 +435,7 @@ footer .credit a:hover {
   color: var(--text-content);
   text-decoration: none;
 }
-#cardDetailBlog{
+#cardDetailBlog {
   height: 1000px;
 }
 
@@ -454,13 +453,13 @@ footer .credit a:hover {
   .tipe_mobile_view {
     display: none !important;
   }
-  #cardDetailImg{
+  #cardDetailImg {
     max-width: 500px;
     height: auto;
   }
 }
 
-@media screen and (max-width: 768px) { 
+@media screen and (max-width: 768px) {
   .logo h2 {
     font-size: 23px;
   }
@@ -527,7 +526,7 @@ footer .credit a:hover {
   .tipe_mobile_view {
     display: flex !important;
   }
-  #cardDetailImg{
+  #cardDetailImg {
     max-width: 300px;
     height: auto;
   }
@@ -584,7 +583,7 @@ footer .credit a:hover {
   .tipe_mobile_view {
     display: flex !important;
   }
-  #cardDetailImg{
+  #cardDetailImg {
     max-width: 300px;
     height: auto;
   }
